@@ -24,9 +24,9 @@ def xml_parser(xml_file):
     """
     This function parses the XML file and return the results as JSON format.
 
-    :param xml_file: the XML file used to parse
+    :param xml_file: the XML file used to parse.
 
-    :return the list of events in JSON format
+    :return the list of events in JSON format.
     """
 
     # Get the root of the xml file
@@ -241,10 +241,10 @@ def check_event_id(events, event_id):
     """
     This function checks if the EventID found from the XML file or not.
 
-    :param events: The list of all events from the XML file
-    :param event_id: The EventID use to check from the XML file
+    :param events: The list of all events from the XML file.
+    :param event_id: The EventID use to check from the XML file.
 
-    :return a list of events that found from the XML file
+    :return a list of events that found from the XML file.
     """
 
     if event_id == "all":
